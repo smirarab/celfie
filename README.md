@@ -147,7 +147,7 @@ In our paper, we identified a set of tissue informative markers (TIMs). We claim
 
 #### Pre-selected TIMs
 
-TIMs are available at `TIMs/sample_tims.txt` for individual CpG TIMs, and `TIMs/sample_tims_summed.txt` for reads summed +/-250bp around a TIM. We recommend using the `TIMs/sample_tims_summed.txt` for improved decomposition performance.
+Example files showing how TIMs could be structured are available at `TIMs/sample_tims.txt` for individual CpG TIMs, and `TIMs/sample_tims_summed.txt` for reads summed +/-250bp around a TIM (these are just example files based on the first part of chromosome 1). We recommend using the `TIMs/sample_tims_summed.txt` for improved decomposition performance.
 
 The TIMs represent markers for the following tissues:
 
@@ -177,7 +177,7 @@ Please note all data was converted to hg38 and all CpGs are reported as (Chrom, 
 
 #### Selecting TIMs
 
-Code to find TIMs is located at `TIMs/tim.py`. This code takes a reference bedfile of all the tissues you would like to calculate TIMs for as input. See `TIMs/sample_input.txt.`
+Code to find TIMs is located at `TIMs/tim.py`. This code takes a reference bedfile of all the tissues you would like to calculate TIMs for as input. See `TIMs/sample_input.txt` as an example.
 
 The TIM code can be run as:
 
